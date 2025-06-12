@@ -1,7 +1,7 @@
 # 💼 Personal Portfolio Website
 
 Welcome to my **Personal Portfolio** project! This website showcases my work, skills, and achievements as a Full Stack Developer. Built with HTML, CSS, and JavaScript, it includes interactive elements, project galleries, and downloadable documents to provide a comprehensive view of my capabilities.
-- Live Website: [https://firstportfolio.1319.netlify.app](https://firstportfolio1319.netlify.app/)
+- Live Website: [https://firstportfolio1319.netlify.app](https://firstportfolio1319.netlify.app/)
 
 ---
 
