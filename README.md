@@ -7,27 +7,27 @@ Welcome to my **Personal Portfolio** project! This website showcases my work, sk
 
 ## 📁 Project Structure
 
-Portfolio/
-├─ Document/
-│ └─ Full Stack.pdf # Resume or detailed portfolio PDF
-├─ Image/
-│ ├─ About.jpg # About section image
-│ ├─ Brain tumor.png # Brain tumor project snapshot
-│ ├─ e-comerse.png # E-commerce project snapshot
-│ ├─ Exele.png # Excel project image
-│ ├─ LMS.png # LMS project image
-│ ├─ online qize.png # Online quiz project snapshot
-│ ├─ online.jpg # Online services or tools image
-│ ├─ profile.jpg # Personal profile picture
-│ ├─ SkechArt.png # Sketch Art project image
-│ ├─ TaskM.png # Task Manager project snapshot
-│ └─ TextUtils.png # Text utility tool snapshot
-├─ Index.html # Main landing page
-├─ JS/
-│ └─ animation.js # JavaScript animations and interactivity
-├─ README.md # Project documentation
-├─ Style.css # Main CSS stylesheet
-└─ View More Projects.html # Secondary page with extended project list
+Portfolio/  
+├─ Document/    
+│ └─ Full Stack.pdf # Resume or detailed portfolio PDF  
+├─ Image/   
+│ ├─ About.jpg # About section image    
+│ ├─ Brain tumor.png # Brain tumor project snapshot 
+│ ├─ e-comerse.png # E-commerce project snapshot    
+│ ├─ Exele.png # Excel project image    
+│ ├─ LMS.png # LMS project image    
+│ ├─ online qize.png # Online quiz project snapshot 
+│ ├─ online.jpg # Online services or tools image    
+│ ├─ profile.jpg # Personal profile picture 
+│ ├─ SkechArt.png # Sketch Art project image    
+│ ├─ TaskM.png # Task Manager project snapshot  
+│ └─ TextUtils.png # Text utility tool snapshot 
+├─ Index.html # Main landing page   
+├─ JS/  
+│ └─ animation.js # JavaScript animations and interactivity 
+├─ README.md # Project documentation    
+├─ Style.css # Main CSS stylesheet  
+└─ View More Projects.html # Secondary page with extended project list  
 
 ---
 
