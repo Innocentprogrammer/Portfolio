@@ -1,183 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Mratyunjay Saxena - Python Developer, Web Developer, Data Science, AI/ML Enthusiast & QA Engineer." />
-  <meta name="keywords" content="Python, Django, Data Science, AI, ML, Web Developer, QA, Testing, Selenium, Manual Testing, Bug Reporting, Postman, STLC, Portfolio, Mratyunjay Saxena" />
-  <meta name="author" content="Mratyunjay Saxena" />
 
-  <title>Mratyunjay Saxena | Portfolio</title>
+<head>
+  <!-- Primary Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mratyunjay Saxena Portfolio</title>
+  <meta name="description"
+    content="Professional portfolio of Mratyunjay Saxena, experienced in building responsive web applications with React.js, JavaScript, and modern web technologies.">
+  <meta name="keywords"
+    content="full stack developer, react developer, JavaScript developer, web developer, hire developer, data analyst">
+  <meta name="author" content="Mratyunjay Saxena">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#2563eb">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://firstportfolio1319.netlify.app" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://firstportfolio1319.netlify.app/">
+  <meta property="og:title" content="Mratyunjay Saxena | Frontend Developer Portfolio">
+  <meta property="og:description" content="Professional portfolio of Mratyunjay Saxena, React and JavaScript developer">
+  <meta property="og:image" content="https://firstportfolio1319.netlify.app/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Mratyunjay Saxena Portfolio">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#2563eb">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <!-- Preload Resources -->
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap"
+    as="style">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="/css/style.css" as="style">
+  <link rel="preload" href="/js/main.js" as="script">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
-
-  <!-- FontAwesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-  <!-- Animate.css -->
+  <!-- CSS Resources -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <!-- AOS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mratyunjay Saxena",
+      "jobTitle": "Full Stack Developer",
+      "url": "https://firstportfolio1319.netlify.app",
+      "sameAs": [
+        "https://www.linkedin.com/in/mratyunjay-saxena-963176226/",
+        "https://github.com/Innocentprogrammer",
+        "https://www.instagram.com/innocent_mratyunjay/"
+      ],
+      "description": "Full Stack developer and QA Engineer specializing in Python ,Django, React.js, JavaScript, Manual Testing, Bug Reporting, Postman, Python Selenium and STLC",
+      "image": "https://firstportfolio1319.netlify.app/images/profile.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "addressCountry": "India"
+      },
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Full Stack Developer/QA engineer",
+        "description": "Experienced in building responsive web applications and QA engineer using modern technologies like Python, Django, React.js, JavaScript, HTML5, CSS3, Bootstrap, Manual Testing, Bug Reporting, Postman, Python Selenium and STLC.",
+        "skills": ["Python"," Django", "React", "JavaScript", "HTML5", "CSS3", "Bootstrap", "Responsive Design", "Manual Testing", "Bug Reporting", "Postman", "Python Selenium" and "STLC"],
+        "experienceYears": "1"
+      }
+    }
+    </script>
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="Style.css">
 </head>
+
 <body>
-  <!-- Header -->
-  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#home">Mratyunjay</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <a class="navbar-brand" href="#home">
+        Mratyunjay Saxena
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section id="home" class="d-flex align-items-center justify-content-center text-center bg-dark text-light" style="min-height: 100vh;">
-    <div data-aos="fade-up">
-      <h1 class="display-4 fw-bold">Hi, I'm <span class="text-info">Mratyunjay Saxena</span></h1>
-      <p class="lead">Python Developer | Web Developer | Data Science & AI-ML Enthusiast | QA Engineer</p>
-      <a href="#projects" class="btn btn-info btn-lg mt-3">Explore My Work</a>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="container py-5">
-    <div class="row align-items-center">
-      <div class="col-md-5" data-aos="fade-right">
-        <img src="images/About.jpg" class="img-fluid rounded shadow" alt="About Mratyunjay" loading="lazy">
-      </div>
-      <div class="col-md-7" data-aos="fade-left">
-        <h2 class="fw-bold mb-3">About Me</h2>
-        <p>I am a passionate developer and QA engineer with expertise in Python, Django, Data Science, and AI-ML. I also bring strong Quality Assurance skills, including Manual Testing, Bug Reporting, Selenium with Python, API Testing with Postman, and STLC. My goal is to build high-quality, scalable applications while ensuring software reliability through robust testing practices.</p>
-        <a href="Mratyunjay-CV.pdf" class="btn btn-dark" download aria-label="Download Mratyunjay's CV"><i class="fas fa-download"></i> Download CV</a>
+        <a href="Document/Full Stack.pdf" download class="btn download-cv ms-lg-3">
+          Download CV <i class="fas fa-download ms-2"></i>
+        </a>
       </div>
     </div>
-  </section>
+  </nav>
 
-  <!-- Projects -->
-  <section id="projects" class="bg-light py-5">
+  <!-- Home Section -->
+  <section id="home">
     <div class="container">
-      <h2 class="text-center fw-bold mb-5">My Projects</h2>
-      <div class="row g-4">
-        <div class="col-md-4" data-aos="zoom-in">
-          <div class="card shadow border-0 h-100">
-            <img src="images/project1.jpg" class="card-img-top" alt="Portfolio Website" loading="lazy">
-            <div class="card-body">
-              <h5 class="card-title">Portfolio Website</h5>
-              <p class="card-text">Responsive personal portfolio website showcasing development, QA, and data science skills.</p>
+      <div class="d-flex flex-wrap align-items-center">
+        <!-- Left Section -->
+        <div class="left-section">
+          <div class="typing-animation">
+            <h1 class="animate__animated animate__fadeInDown">Mratyunjay Saxena</h1>
+            <p class="lead animate__animated animate__fadeIn animate__delay-1s">Professional Full Stack Developer | Data
+              Analyst | Python Expert | React.js Specialist | Tableau Expert | Manual Tester | Bug Reporter | Postman | Python Selenium | STLC</p>
+            <span id="typed-text" class="animate__animated animate__fadeIn animate__delay-2s"></span><span
+              class="cursor">|</span>
+          </div>
+          <div class="fade-in animate__animated animate__fadeIn animate__delay-3s">
+            <div class="featured-text-btn d-flex flex-wrap">
+              <a href="#about" class="btn me-3 mb-3 animate__animated animate__fadeInLeft animate__delay-3s">
+                Hire Me <i class="fas fa-user ms-2"></i>
+              </a>
+              <a href="Document/Full Stack.pdf" download
+                class="btn me-3 mb-3 animate__animated animate__fadeInUp animate__delay-3s">
+                Download CV <i class="fas fa-download ms-2"></i>
+              </a>
+              <a href="#projects" class="btn mb-3 animate__animated animate__fadeInRight animate__delay-3s">
+                Projects <i class="fas fa-folder ms-2"></i>
+              </a>
             </div>
           </div>
-        </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-          <div class="card shadow border-0 h-100">
-            <img src="images/project2.jpg" class="card-img-top" alt="E-commerce Project" loading="lazy">
-            <div class="card-body">
-              <h5 class="card-title">E-commerce Platform</h5>
-              <p class="card-text">Django-based e-commerce application with end-to-end QA testing and payment integration.</p>
-            </div>
+          <div class="social_icons d-flex animate__animated animate__fadeIn animate__delay-4s">
+            <a href="https://www.instagram.com/innocent_mratyunjay/" target="_blank" class="icon"
+              aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mratyunjay-saxena-963176226/" target="_blank" class="icon"
+              aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Innocentprogrammer" target="_blank" class="icon" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100077413324974" target="_blank" class="icon"
+              aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/@CrackCodechef-SpaceScience1320" target="_blank" class="icon"
+              aria-label="Facebook">
+              <i class="fa-brands fa-youtube"></i>
+
+            </a>
           </div>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
-          <div class="card shadow border-0 h-100">
-            <img src="images/project3.jpg" class="card-img-top" alt="Data Analysis Project" loading="lazy">
-            <div class="card-body">
-              <h5 class="card-title">Data Science & QA Automation</h5>
-              <p class="card-text">Data analysis using Python along with automation scripts for software testing using Selenium.</p>
-            </div>
+
+        <!-- Right Section -->
+        <div class="right-section animate__animated animate__fadeIn animate__delay-1s">
+          <div class="image-circle">
+            <img src="image/profile.jpg" alt="Mratyunjay Saxena - Full Stack Developer" class="img-fluid" width="350"
+              height="350">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Skills -->
-  <section id="skills" class="container py-5">
-    <h2 class="text-center fw-bold mb-5">My Skills</h2>
-    <div class="row text-center">
-      <!-- Development -->
-      <div class="col-md-3 mb-4" data-aos="flip-left">
-        <i class="fab fa-python fa-3x text-info mb-3"></i>
-        <h5>Python</h5>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="flip-left" data-aos-delay="200">
-        <i class="fab fa-js fa-3x text-warning mb-3"></i>
-        <h5>JavaScript</h5>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="flip-left" data-aos-delay="400">
-        <i class="fas fa-database fa-3x text-success mb-3"></i>
-        <h5>SQL</h5>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="flip-left" data-aos-delay="600">
-        <i class="fab fa-react fa-3x text-primary mb-3"></i>
-        <h5>React</h5>
-      </div>
-
-      <!-- QA -->
-      <div class="col-md-3 mb-4" data-aos="flip-left" data-aos-delay="800">
-        <i class="fas fa-vial fa-3x text-danger mb-3"></i>
-        <h5>Manual Testing</h5>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="flip-left" data-aos-delay="1000">
-        <i class="fas fa-bug fa-3x text-secondary mb-3"></i>
-        <h5>Bug Reporting</h5>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="flip-left" data-aos-delay="1200">
-        <i class="fab fa-python fa-3x text-info mb-3"></i>
-        <h5>Python Selenium</h5>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="flip-left" data-aos-delay="1400">
-        <i class="fas fa-plug fa-3x text-warning mb-3"></i>
-        <h5>Postman (API Testing)</h5>
-      </div>
-      <div class="col-md-3 mb-4" data-aos="flip-left" data-aos-delay="1600">
-        <i class="fas fa-project-diagram fa-3x text-success mb-3"></i>
-        <h5>STLC</h5>
-      </div>
-    </div>
-  </section>
-
-  <!-- Blog -->
-  <section id="blog" class="bg-light py-5">
+  <!-- About Section -->
+  <section id="about">
     <div class="container">
-      <h2 class="text-center fw-bold mb-5">Latest Blog Posts</h2>
-      <div class="row g-4">
-        <div class="col-md-6" data-aos="fade-up">
-          <div class="card shadow border-0 h-100">
-            <img src="images/blog1.jpg" class="card-img-top" alt="Machine Learning Blog" loading="lazy">
-            <div class="card-body">
-              <h5 class="card-title">Introduction to Machine Learning</h5>
-              <p class="card-text">Beginner-friendly guide covering key ML concepts and QA automation integration.</p>
-              <time datetime="2025-06-08">June 8, 2025</time>
-            </div>
-          </div>
+      <h2 class="text-center mb-5 animate__animated animate__fadeIn">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center animate__animated animate__fadeInLeft">
+          <img src="image/About.jpg" alt="About Mratyunjay Saxena" class="about-img img-fluid" width="400" height="400">
         </div>
-        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="card shadow border-0 h-100">
-            <img src="images/blog2.jpg" class="card-img-top" alt="Web Development Trends Blog" loading="lazy">
-            <div class="card-body">
-              <h5 class="card-title">Web & QA Trends 2025</h5>
-              <p class="card-text">Exploring how web frameworks, AI, and QA automation are shaping the software industry.</p>
-              <time datetime="2025-06-01">June 1, 2025</time>
+        <div class="col-md-6 animate__animated animate__fadeInRight">
+          <p class="lead">
+            I am a passionate developer and QA engineer with expertise in Python, Django, Data Science, and AI-ML. I also bring strong Quality Assurance skills, including Manual Testing, Bug Reporting, Selenium with Python, API Testing with Postman, and STLC. My goal is to build high-quality, scalable applications while ensuring software reliability through robust testing practices.
+          </p>
+          <p>
+            With a strong foundation in computer science and a keen eye for
+            design, I strive to deliver high-quality solutions that meet
+            both user needs and business goals. I specialize in creating responsive,
+            accessible, and performant web applications that provide exceptional
+            user experiences across all devices.
+          </p>
+          <p>
+            My approach combines technical excellence with creative problem-solving,
+            ensuring that every project I work on not only functions flawlessly
+            but also looks stunning. Let's work together to bring your ideas to life!
+          </p>
+          <div class="skills mt-4">
+            <h4>Technical Skills:</h4>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge">HTML5</span>
+              <span class="badge">CSS3</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">React</span>
+              <span class="badge">Bootstrap</span>
+              <span class="badge">Python</span>
+              <span class="badge">Django</span>
+              <span class="badge">Java</span>
+              <span class="badge">MySQL</span>
+              <span class="badge">SQL</span>
+              <span class="badge">PostgreSQL</span>
+              <span class="badge">Git</span>
+              <span class="badge">GitHub</span>
+              <span class="badge">Data Science and Machine Learning</span>
+              <span class="badge">Data Analyst</span>
+              <span class="badge">Tableau</span>
+              <span class="badge">PowerBI</span>
+              <span class="badge">REST APIs</span>
+              <span class="badge">Render</span>
+              <span class="badge">Postman</span>
+              <span class="badge">Responsive Design</span>
+              <span class="badge">Manual Testing</span>
+              <span class="badge">Bug Reporting</span>
+              <span class="badge">Postman</span>
+              <span class="badge">Python Selenuim</span>
+              <span class="badge">STLC</span>
             </div>
           </div>
         </div>
@@ -185,63 +250,456 @@
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="container py-5">
-    <h2 class="text-center fw-bold mb-5">Contact Me</h2>
-    <form id="contactForm" class="w-75 mx-auto shadow p-4 bg-white rounded">
-      <div class="mb-3">
-        <label for="name" class="form-label">Full Name</label>
-        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="text-center mb-5 animate__animated animate__fadeIn">My Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4 animate__animated animate__fadeInUp">
+          <div class="card project-card h-100">
+            <img src="Image/online.jpg" class="card-img-top" alt="Portfolio Website Project" width="400" height="200">
+            <div class="card-body">
+              <h3 class="card-title">E-Commerce Website For Sarika Trader</h3>
+              <p class="card-text">
+                Engineered an responsive E-commerce website with user registration, secure checkout, and order tracking
+                functionalities, resulting in a 30% reduction in manual order processing time for the spices company
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="https://sarika-trader.onrender.com/" class="btn btn-primary" target="_blank">View
+                  Project</a>
+                <div class="tech-tags">
+                  <span class="badge bg-light text-primary">Python</span>
+                  <span class="badge bg-light text-primary">Django</span>
+                  <span class="badge bg-light text-primary">HTML</span>
+                  <span class="badge bg-light text-primary">Bootstrap</span>
+                  <span class="badge bg-light text-primary">JavaScript</span>
+                  <span class="badge bg-light text-primary">PostgreSQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 animate__animated animate__fadeInUp animate__delay-1s">
+          <div class="card project-card h-100">
+            <img src="Image/SkechArt.png" class="card-img-top" alt="SketchArt Platform Project" width="400"
+              height="200">
+            <div class="card-body">
+              <h3 class="card-title">Job Recruitment Portal</h3>
+              <p class="card-text">
+                A comprehensive Job Recruitment Portal for Sarika Traders to streamline hiring processes.
+                This was increase 20% candidate applications, facilitating the efficient management of job postings, and
+                recruitment processes. Enabled real-time interaction between recruiters and applicants with an intuitive
+                dashboard for administrators.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="https://jobrecruitmentplatform.onrender.com/" class="btn btn-primary" target="_blank">View
+                  Project</a>
+                <div class="tech-tags">
+                  <span class="badge bg-light text-primary">Python</span>
+                  <span class="badge bg-light text-primary">HTML</span>
+                  <span class="badge bg-light text-primary">Django</span>
+                  <span class="badge bg-light text-primary">JavaScript</span>
+                  <span class="badge bg-light text-primary">CSS</span>
+                  <span class="badge bg-light text-primary">SQLite</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 animate__animated animate__fadeInUp animate__delay-2s">
+          <div class="card project-card h-100">
+            <img src="Image/TaskM.png" class="card-img-top" alt="Task Manager Project" width="400" height="200">
+            <div class="card-body">
+              <h3 class="card-title">Food Ordering Website</h3>
+              <p class="card-text">
+                Developed a fully responsive Canteen Food Service using React.js, ensuring seamless user experience
+                across devices.Implemented interactive UI features, with restaurant listings, menu categories, and a
+                cart system. Used CSS animations and modern UI frameworks to enhance user engagement.Designed a visually
+                appealing layout to improve accessibility and ease of navigation.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="https://canteen-food-service.vercel.app/" class="btn btn-primary" target="_blank">View Project</a>
+                <div class="tech-tags">
+                  <span class="badge bg-light text-primary">ReactJs</span>
+                  <span class="badge bg-light text-primary">Html</span>
+                  <span class="badge bg-light text-primary">CSS</span>
+                  <span class="badge bg-light text-primary">JS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="email" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      <div class="text-center mt-5 animate__animated animate__fadeIn">
+        <a href="View More Projects.html" class="btn btn-outline-primary" target="_blank">View All Projects</a>
       </div>
-      <div class="mb-3">
-        <label for="message" class="form-label">Message</label>
-        <textarea class="form-control" id="message" rows="4" placeholder="Write your message..." required></textarea>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog">
+    <div class="container">
+      <h2 class="text-center mb-5 animate__animated animate__fadeIn">Blogs</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4 animate__animated animate__fadeInLeft">
+          <article class="blog-post p-4">
+            <h3><a
+                href="https://medium.com/@mratyunjaysaxena1319/build-a-movie-recommendation-system-with-tkinter-machine-learning-a440f4f6a635">🎬
+                Build a Movie Recommendation System with Tkinter + Machine Learning</a></h3>
+            <p class="post-meta">Published on <time datetime="2023-05-15">June 8, 2025</time></p>
+            <p>A beginner-friendly Python project to recommend movies based on your taste using the MovieLens dataset
+              and scikit-learn’s KNN algorithm.</p>
+            <a href="https://medium.com/@mratyunjaysaxena1319/build-a-movie-recommendation-system-with-tkinter-machine-learning-a440f4f6a635"
+              class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </article>
+        </div>
+        <div class="col-md-4 mb-4 animate__animated animate__fadeInRight">
+          <article class="blog-post p-4">
+            <h3><a
+                href="https://medium.com/@mratyunjaysaxena1319/mastering-git-github-a-developers-essential-guide-d3dc3db1a3ac">🚀
+                Mastering Git & GitHub: A Developer’s Essential Guide</a>
+            </h3>
+            <p class="post-meta">Published on <time datetime="2023-04-22">May 6, 2025</time></p>
+            <p>Version control is a must-have skill for every developer — and Git, along with GitHub, is the undisputed
+              champion in this arena. Whether you’re working on a solo project or collaborating with a team, Git helps
+              track changes in your code, while GitHub enables cloud collaboration like a pro.</p>
+            <a href="https://medium.com/@mratyunjaysaxena1319/mastering-git-github-a-developers-essential-guide-d3dc3db1a3ac"
+              class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </article>
+        </div>
+        <div class="col-md-4 mb-4 animate__animated animate__fadeInRight">
+          <article class="blog-post p-4">
+            <h3><a
+                href="https://universeandsolarsystem.blogspot.com/2023/08/india-makes-history-with-chandrayaan-3.html">
+                India Makes History with Chandrayaan-3 Landing on Moon's South Pole</a>
+            </h3>
+            <p class="post-meta">Published on <time datetime="2023-04-22">Aug 30, 2023</time></p>
+            <p>India made history on August 23, 2023, when its Chandrayaan-3 spacecraft successfully landed on the lunar
+              surface near the south pole. The landing was the culmination of a year-long mission that began with the
+              launch of Chandrayaan-3 on July 14, 2022.</p>
+            <a href="https://universeandsolarsystem.blogspot.com/2023/08/india-makes-history-with-chandrayaan-3.html"
+              class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </article>
+        </div>
       </div>
-      <button type="submit" class="btn btn-dark w-100">Send Message</button>
-    </form>
+    </div>
+    <div class="text-center mt-4 animate__animated animate__fadeIn">
+      <a href="https://universeandsolarsystem.blogspot.com/" class="btn btn-primary" target="_blank">View All
+        Articles</a>
+    </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="text-center mb-5 animate__animated animate__fadeIn">Get In Touch</h2>
+      <div class="row">
+        <div class="col-lg-6 mb-5 mb-lg-0 animate__animated animate__fadeInLeft">
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Send Message <i class="fas fa-paper-plane ms-2"></i>
+            </button>
+          </form>
+        </div>
+        <div class="col-lg-6 animate__animated animate__fadeInRight">
+          <div class="map-container">
+            <iframe loading="lazy" width="100%" height="100%" frameborder="0" style="border:0"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.332024482014!2d77.22701431508285!3d28.62894398242125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+              allowfullscreen aria-label="Google Map Location"></iframe>
+          </div>
+          <div class="contact-info mt-4">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-map-marker-alt me-3 text-primary"></i>
+              <span>New Delhi, India</span>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-envelope me-3 text-primary"></i>
+              <a href="mailto:mratyunjaysaxena8859@gmail.com">mratyunjaysaxena8859@gmail.com</a>
+            </div>
+            <div class="d-flex align-items-center">
+              <i class="fas fa-phone-alt me-3 text-primary"></i>
+              <a href="tel:+918445518517">+91 8445518517</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-dark text-light text-center py-3">
-    <p>Designed by Mratyunjay Saxena © <span id="currentYear"></span></p>
-    <div>
-      <a href="https://github.com/mratyunjay" class="text-light mx-2" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/in/mratyunjay" class="text-light mx-2" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:mratyunjay@example.com" class="text-light mx-2" aria-label="Email"><i class="fas fa-envelope"></i></a>
+  <footer class="animate__animated animate__fadeIn">
+    <div class="container">
+      <div class="footer-content">
+        <!-- About Us Section -->
+        <div class="footer-section">
+          <h3>Mratyunjay Saxena</h3>
+          <p>
+            Passionate Full Stack developer dedicated to creating beautiful,
+            functional, and user-friendly web experiences that drive results.
+          </p>
+          <p>
+            My goal is to deliver maximum value, drive efficiencies, and support
+            the long-term growth and vision of the company.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#home">Home</a></li>
+            <li class="mb-2"><a href="#about">About Me</a></li>
+            <li class="mb-2"><a href="#projects">Projects</a></li>
+            <li class="mb-2"><a href="#blog">Blog</a></li>
+            <li class="mb-2"><a href="#contact">Contact</a></li>
+            <li class="mb-2"><a href="Document/Full Stack.pdf" download>Download CV</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Us Section -->
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <div class="d-flex align-items-start mb-3">
+            <i class="fas fa-map-marker-alt mt-1 me-3"></i>
+            <span>Gurugram, India</span>
+          </div>
+          <div class="d-flex align-items-start mb-3">
+            <i class="fas fa-envelope mt-1 me-3"></i>
+            <a href="mailto:mratyunjaysaxena8859@gmail.com">mratyunjaysaxena<br>8859@gmail.com</a>
+          </div>
+          <div class="d-flex align-items-start mb-3">
+            <i class="fas fa-phone-alt mt-1 me-3"></i>
+            <a href="tel:+918445518517">+91 8445518517</a>
+          </div>
+          <div class="social-media mt-4">
+            <a href="https://www.facebook.com/profile.php?id=100077413324974" target="_blank" rel="noopener noreferrer"
+              aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/innocent_mratyunjay/" target="_blank" rel="noopener noreferrer"
+              aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mratyunjay-saxena-963176226/" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Innocentprogrammer" target="_blank" rel="noopener noreferrer"
+              aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div class="footer-section newsletter">
+          <h3>Newsletter</h3>
+          <p>
+            Subscribe to my newsletter to stay updated on my latest projects,
+            articles, and Full Stack development tips.
+          </p>
+          <form class="mt-3" id="newsletterForm">
+            <input type="email" placeholder="Enter your email" required aria-label="Email for newsletter subscription"
+              class="form-control mb-2" />
+            <button type="submit" class="btn btn-primary w-100">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="text-center pt-4 mt-3 border-top">
+        <p>Designed by Mratyunjay Saxena</p>
+      </div>
     </div>
   </footer>
 
-  <!-- Back to Top -->
-  <button id="backToTop" class="btn btn-info position-fixed bottom-0 end-0 m-4 rounded-circle shadow" style="display:none;" aria-label="Back to top">
-    <i class="fas fa-chevron-up" aria-hidden="true"></i>
-  </button>
+  <!-- Back to Top Button -->
+  <a href="#home" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
 
-  <!-- Scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+  <!-- Typed.js for typing animation -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- AOS (Animate On Scroll) -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <script>
-    AOS.init();
-
-    // Auto Year
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
-
-    // Back to Top
-    const backToTop = document.getElementById('backToTop');
-    window.addEventListener('scroll', () => {
-      backToTop.style.display = window.scrollY > 300 ? 'block' : 'none';
+    // Initialize AOS
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
     });
-    backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
-    // Contact Form
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      alert('Thank you for reaching out! I will get back to you soon.');
-      this.reset();
+    // Navbar scroll effect
+    window.addEventListener('scroll', function () {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 70,
+            behavior: 'smooth'
+          });
+
+          // Update URL without page reload
+          history.pushState(null, null, targetId);
+        }
+      });
+    });
+
+    // Back to top button
+    const backToTopButton = document.querySelector('.back-to-top');
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 300) {
+        backToTopButton.classList.add('active');
+      } else {
+        backToTopButton.classList.remove('active');
+      }
+    });
+
+    // Typed.js initialization
+    document.addEventListener('DOMContentLoaded', function () {
+      const typed = new Typed('#typed-text', {
+        strings: [
+          'Full Stack Developer',
+          'Data Analyst',
+          'Python Expert',
+          'React.js Specialist',
+          'Machine Learning Enthusiast',
+          'Tableau Expert',
+          'Manual Testing',
+          'Bug Reporting',
+          'Postman',
+          'Python Selenium',
+          'STLC'
+        ],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+      });
+
+      // Set current year in footer
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+      // Form submissions
+      const contactForm = document.getElementById('contactForm');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function (e) {
+          e.preventDefault();
+          // Here you would typically send the form data to a server
+          alert('Thank you for your message! I will get back to you soon.');
+          this.reset();
+        });
+      }
+
+      const newsletterForm = document.getElementById('newsletterForm');
+      if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function (e) {
+          e.preventDefault();
+          alert('Thank you for subscribing to our newsletter!');
+          this.reset();
+        });
+      }
+
+      // Animation on scroll
+      const animateOnScroll = function () {
+        const elements = document.querySelectorAll('.animate__animated');
+
+        elements.forEach(element => {
+          const elementPosition = element.getBoundingClientRect().top;
+          const windowHeight = window.innerHeight;
+
+          if (elementPosition < windowHeight - 100) {
+            const animationClass = element.classList[1];
+            element.classList.add(animationClass);
+          }
+        });
+      };
+
+      window.addEventListener('scroll', animateOnScroll);
+      // Trigger once on page load
+      animateOnScroll();
+
+      // Preload fonts
+      const preloadFonts = () => {
+        const links = [
+          { href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap', as: 'style' },
+          { href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css', as: 'style' }
+        ];
+
+        links.forEach(link => {
+          const preloadLink = document.createElement('link');
+          preloadLink.rel = 'preload';
+          preloadLink.href = link.href;
+          preloadLink.as = link.as;
+          document.head.appendChild(preloadLink);
+        });
+      };
+
+      preloadFonts();
+
+      // Lazy load images
+      const lazyImages = [].slice.call(document.querySelectorAll('img[loading="lazy"]'));
+
+      if ('IntersectionObserver' in window) {
+        let lazyImageObserver = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              let lazyImage = entry.target;
+              lazyImage.src = lazyImage.dataset.src;
+              lazyImage.classList.remove('lazy');
+              lazyImageObserver.unobserve(lazyImage);
+            }
+          });
+        });
+
+        lazyImages.forEach(function (lazyImage) {
+          lazyImageObserver.observe(lazyImage);
+        });
+      }
     });
   </script>
 </body>
+
+
 </html>
